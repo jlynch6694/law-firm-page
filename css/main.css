@@ -1,0 +1,121 @@
+.logo {
+  position: relative;
+  background-color: #91342f;
+  color: white;
+  font-size: 28px;
+  box-shadow: 10px 10px 10px 10px black;
+  height: 80px;
+  max-width: 80px;
+}
+
+html {
+  background-color: white;
+}
+
+.header {
+  margin-top: 75px;
+}
+
+
+.navbar {
+  justify-content: center;
+  color: black;
+  font-family: helvetica;
+  font-weight: lighter;
+  max-height: 28px;
+
+}
+
+.top-links {
+  border-top: solid;
+  border-bottom: solid;
+  border-top-width: thin;
+  border-bottom-width:thin;
+}
+
+.top-page {
+  margin-left:50px;
+  color:black;
+}
+
+.bottom-link {
+  border-top: solid;
+  border-top-width: thin;
+}
+
+
+h1 {
+  color: black;
+  text-align: center;
+}
+
+.tab {
+  background-color:  #91342f;
+  max-width: 250px;
+  max-height: 345px;
+  margin-left: 50px;
+}
+
+.news, .feed {
+  color: white;
+  text-align: left;
+  font-family: arial;
+  font-size: 12px;
+  padding-right: 10px;
+  overflow: scroll;
+  max-height: 400px;
+  display: block;
+}
+
+.news {
+  font-weight: 900;
+  padding-top: 10px;
+  border-bottom-style: solid;
+  border-bottom-color: white;
+  border-bottom-width: thin;
+}
+
+.description {
+  font-family: arial;
+  font-size: 14px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.contact {
+  padding-top: 25px;
+  font-family: arial;
+  font-size: 12px;
+  padding-left: 50px;
+}
+
+.contact::first-line {
+  font-weight: bold;
+}
+
+
+a.nav-link {
+  color: black;
+}
+
+span {
+  float: right;
+  font-size: 24px;
+  padding-left: 20px;
+}
+
+a.copyright {
+  font-size: 12px;
+  padding-top: 30px
+}
+
+a:hover {
+  color: #91342f;
+	text-decoration: underline;
+	font-weight: thin;
+}
+
+.wood {
+  z-index: -1
+
+}
